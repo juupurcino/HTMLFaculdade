@@ -1,141 +1,234 @@
 * {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0px;
 }
 
-h2{
+h2 {
 
-    color: white;
-    margin-left: 10px;
+  color: white;
+  margin-left: 10px;
 }
 
-nav{
+nav {
 
-    background-color: #6B8E23;
-    display: flex;
-    justify-content: space-between;
-    padding: 1%;    
+  background-color: #6B8E23;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
 }
 
-body{
+body {
 
-    margin: 0;
+  margin: 0;
 }
 
-.acesso{
+.acesso {
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-h3, a{
+h3,
+a {
 
-    color: white;
-    text-decoration: none;
-    margin: 6px;
+  color: white;
+  text-decoration: none;
+  margin: 6px;
 
 }
 
-.titulo{
+.titulo {
 
-    background-image: url("./img/fundo.jpg");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-    padding: 10%;
-    color: white;
-    font-size: 30px;
+  background-image: url("./img/fundo.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  padding: 8%;
+  color: white;
+  font-size: 30px;
+  flex-direction: column;
+}
+
+.titulo input {
+
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  padding-left: 8px;
+  font-size: 15px;
+  border: none;
+  margin: 10px;
+
 }
 
 .card {
 
-    color: white;
-    background-color: #6B8E23;
-    margin: 10px;
-    height: 300px;
-    width: 250px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10%;
-    
+  color: white;
+  background-color: #6B8E23;
+  margin: 10px;
+  height: 300px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10%;
+  transform: ;
+
 }
 
 .card img {
-    height: 70%;
-    width: 250px;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+  height: 70%;
+  width: 250px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
 
 }
 
-.card h4{
+.card h4 {
 
-    margin-top: 12%;
+  margin-top: 12%;
 }
 
 .cardAlinhamento {
 
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-around;
+  align-items: center;
 
 }
 
-.descricao{
+.descricao {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    padding: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding: 4%;
 }
 
 .cardProdutos {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    width: 300px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    margin: 2%;
-  }
-  
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 2%;
+}
+
 
 .cardProdutos h2 {
-    color: #333;
-    
-  }
-  
-  .card-image img {
-    width: 100%;
-    border-radius: 8px 8px 0 0;
-  }
-  
-  .card-content {
-    padding: 15px;
-  }
-  
-  .card-content h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .card-content .price {
-    font-size: 18px;
-    color: #333;
-    font-weight: bold;
-  }
+  color: #333;
 
-  .destino{
+}
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+.card-image img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-content .price {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.destino {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.formulario{
+
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 3px;
+  padding: 60px;
+  margin-top: 12%;
+
+}
+
+.formulario input {
+
+  border: 1px solid #333;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 95%;
+  margin: 10px;
+  padding: 6px;
+}
+
+.formulario textarea {
+
+  border: 1px solid #333;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 95%;
+}
+
+.formulario button{
+
+  margin: 6px;
+  background-color: #fff;
+  color: #333;
+  border: #333 2px solid;
+  padding: 6px;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 15px;
+}
+
+.formulario h2{
+
+  color: #333;
+  margin: 8px;
+}
+
+.contato{
+  
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border-radius: 3px;
+  padding: 60px;
+  margin-top: 12%;
+  align-items: center;
+  justify-content: center;
+  background-color: #6B8E23;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.tudo{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+  justify-items: center;
+
+
+}

@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contato - Turismo Aventura</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
     <nav>
-        <div>
-            <h2>Turismo Curitiba</h2>
-          </div>
+      <div>
+        <h2>Turismo Curitiba</h2>
+      </div>
 
       <div class="acesso">
-          <h3><a href="index.html">Início</a></h3>
-          <h3>|</h3>
-          <h3><a href="sobre.html">Sobre Nós</a></h3>
-          <h3>|</h3>
-          <h3><a href="destino.html">Destinos</a></h3>
-          <h3>|</h3>
-          <h3><a href="contato.html">Contato</a></h3>
+        <h3><a href="index.html">Início</a></h3>
+        <h3>•</h3>
+        <h3><a href="sobre.html">Sobre Nós</a></h3>
+        <h3>•</h3>
+        <h3><a href="destino.html">Destinos</a></h3>
+        <h3>•</h3>
+        <h3><a href="contato.html">Contato</a></h3>
       </div>
-  </nav>
-</header>
+    </nav>
+  </header>
 
   <main>
-    <div>
-      <h2>Entre em Contato</h2>
-      <form action="/submit" method="post">
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name" required>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+    <div class="tudo">
 
-        <label for="phone">Telefone:</label>
-        <input type="tel" id="phone" name="phone">
+      <div class="contato">
+        <h2>LIGUE PARA NÓS</h2>
+        <p>+55 (41)99999-9999 • +55 (41)3333-3333</p>
+        <h2>LOCALIZAÇÃO</h2>
+        <p>R. Joaquim Vilac, 475 - Vila Teixeira, Campinas - SP, 13032-385</p>
+        <h2>HORÁRIO COMERCIAL</h2>
+        <p>Seg · Sex ... 10h · 20h, Sab, Dom ... Fechado</p>
+      </div>
 
-        <label for="message">Mensagem:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+      <div class="formulario">
+        <h2>ENTRE EM CONTATO</h2>
+        <input type="text" placeholder="Digite seu nome">
+        <input type="email" placeholder="Digite seu email">
+        <input type="tel" placeholder="Digite seu telefone">
 
-        <input type="submit" value="Enviar">
-      </form>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button>ENVIAR</button>
+      </div>
     </div>
   </main>
 
 </body>
+
 </html>
