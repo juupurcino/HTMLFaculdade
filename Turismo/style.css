@@ -131,6 +131,7 @@ a {
 .card-image img {
   width: 100%;
   border-radius: 8px 8px 0 0;
+  height: 220px;
 }
 
 .card-content {
@@ -166,7 +167,7 @@ a {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 3px;
   padding: 60px;
-  margin-top: 12%;
+  margin-top: 8%;
 
 }
 
@@ -215,11 +216,11 @@ a {
   width: 50%;
   border-radius: 3px;
   padding: 60px;
-  margin-top: 12%;
-  align-items: center;
+  margin-top: 8%;
   justify-content: center;
   background-color: #6B8E23;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
 }
 
 .tudo{
@@ -230,5 +231,60 @@ a {
   width: 70%;
   justify-items: center;
 
+}
 
+.center {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+
+
+}
+
+.contato h2{
+  text-align: start;
+  font-size: 15px ;
+  margin: 2%;
+  margin-top: 6%;
+}
+
+.sobre{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sobre h2{
+
+  color: #333;
+  margin: 1%;
+}
+
+.sobre p{
+
+  margin: 1%;
+}
+
+.sobre iframe{
+
+  width: 80%;
+}
+
+.centerdestino h1 {
+
+  color: #333;
+  margin: 2%;
+}
+
+.centerdestino{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }
