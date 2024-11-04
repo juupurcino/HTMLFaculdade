@@ -266,7 +266,9 @@ a {
 
 .sobre p{
 
-  margin: 1%;
+  margin: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .sobre iframe{
