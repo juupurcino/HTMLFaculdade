@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição na Infinity Pass</title>
+    <link rel="stylesheet" href="styleFormulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <nav>
+        <div class="textnav">
+          <a href="#sessao1"><h3>Infinity Pass</h3></a>
+          <a href="#sessao2"><h4>Jogos</h4></a>
+          <a href="#sessao3"><h4>Localização</h4></a>
+          <a href="#sessao4"><h4>Trailer</h4></a>
+        </div>
+  
+        <div>
+         <a href="formulario.html"><h6>INSCREVA-SE AGORA ></h6></a>
+        </div>
+      </nav>
+    <div class="form-container">
+        <h2>Infinity Pass</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <label for="genero">Gênero de Jogo Preferido</label>
+            <select id="genero" name="genero" required>
+                <option value="">Selecione</option>
+                <option value="acao">Ação</option>
+                <option value="aventura">Aventura</option>
+                <option value="estrategia">Estratégia</option>
+                <option value="rpg">RPG</option>
+                <option value="esportes">Esportes</option>
+            </select>
+
+            <label for="console">Console Favorito</label>
+            <select id="console" name="console">
+                <option value="">Selecione</option>
+                <option value="playstation">PlayStation</option>
+                <option value="xbox">Xbox</option>
+                <option value="nintendo">Nintendo</option>
+                <option value="pc">PC</option>
+            </select>
+
+            <button type="submit">Inscrever-se</button>
+        </form>
+    </div>
+</body>
+</html>
